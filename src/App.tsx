@@ -263,9 +263,8 @@ function App() {
       {/* Home Section */}
       <section id="home" className="min-h-screen flex items-center justify-center relative">
         <div className="text-center px-4">
-          <Suspense fallback={<div className="h-12 bg-violet-600/20 rounded animate-pulse w-64"></div>}>
-            <TypewriterComponent text="Sanjay Panneerselvan" typingSpeed={100} />
-          </Suspense>
+          {/* Changed from TypewriterComponent to normal text for the name */}
+          <h1 className="text-4xl md:text-5xl font-bold text-white">Sanjay Panneerselvan</h1>
           {showSubtitle && (
             <div className="h-8 mt-4">
               <Suspense fallback={<div className="h-8 bg-violet-600/20 rounded animate-pulse w-48"></div>}>
@@ -424,7 +423,10 @@ function App() {
                 download
                 className="bg-violet-600 hover:bg-violet-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg transition flex items-center space-x-2 text-sm sm:text-base"
               >
-                <Rocket className="animate-bounce" size={18} />
+                {/* Changed to center the rocket icon using mx-auto */}
+                <div className="flex items-center justify-center">
+                  <Rocket className="animate-bounce mx-auto" size={18} />
+                </div>
                 <span>Download Resume</span>
               </a>
             </div>

@@ -29,7 +29,7 @@ const ScrollProgress = () => {
   const offset = circumference - (progress / 100) * circumference;
 
   return (
-    <div className="fixed bottom-8 left-8 w-16 h-16 z-50">
+    <div className="fixed bottom-8 right-8 w-16 h-16 z-50">
       {/* Circular Progress - perfectly aligned with rocket */}
       <svg 
         className="w-full h-full absolute top-0 left-0" 
