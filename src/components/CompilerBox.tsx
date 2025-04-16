@@ -19,117 +19,73 @@ const CompilerBox = () => {
     <>
       <div className="text-gray-500">// About Me</div>
       <span className="text-blue-400">const</span> sanjay <span className="text-gray-400">=</span> <span className="text-gray-400">{'{'}</span>
+      
       <div className="ml-4">
-        <span className="text-yellow-300">role</span>
-        <span className="text-gray-400">:</span> <span className="text-green-400">"Full Stack Developer & AI Enthusiast"</span>
-        <span className="text-gray-400">,</span>
+        <span className="text-yellow-300">role</span><span className="text-gray-400">:</span>
+        <span className="text-green-400"> "Full Stack Developer & AI Enthusiast"</span><span className="text-gray-400">,</span>
       </div>
+
       <div className="ml-4">
-        <span className="text-yellow-300">education</span>
-        <span className="text-gray-400">:</span> <span className="text-gray-400">{'{'}</span>
+        <span className="text-yellow-300">education</span><span className="text-gray-400">:</span> {'{'}
         <div className="ml-4">
-          <span className="text-yellow-300">current</span>
-          <span className="text-gray-400">:</span> <span className="text-green-400">"Master of Computer Applications @ PSG College of Technology"</span>
-          <span className="text-gray-400">,</span>
+          <span className="text-yellow-300">current</span><span className="text-gray-400">:</span>
+          <span className="text-green-400"> "Master of Computer Applications @ PSG College of Technology"</span><span className="text-gray-400">,</span>
         </div>
         <div className="ml-4">
-          <span className="text-yellow-300">previous</span>
-          <span className="text-gray-400">:</span> <span className="text-green-400">"Bachelor's Degree in Computer Science @ PSG College of Arts & Science"</span>
+          <span className="text-yellow-300">previous</span><span className="text-gray-400">:</span>
+          <span className="text-green-400"> "Bachelor's Degree in Computer Science @ PSG College of Arts & Science"</span>
         </div>
-        <span className="ml-4 text-gray-400">{'}'}</span>
-        <span className="text-gray-400">,</span>
+        <span className="ml-4 text-gray-400">{'}'},</span>
       </div>
+
       <div className="ml-4">
-        <span className="text-yellow-300">skills</span>
-        <span className="text-gray-400">:</span> <span className="text-gray-400">{'{'}</span>
+        <span className="text-yellow-300">skills</span><span className="text-gray-400">:</span> {'{'}
         <div className="ml-4">
-          <span className="text-yellow-300">languages</span>
-          <span className="text-gray-400">:</span> <span className="text-gray-400">[</span>
-          <span className="text-green-400">"C"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"C++"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"Python"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"JavaScript"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"TypeScript"</span>
-          <span className="text-gray-400">]</span>
-          <span className="text-gray-400">,</span>
+          <span className="text-yellow-300">languages</span><span className="text-gray-400">:</span> [
+          <span className="text-green-400">"C"</span>, <span className="text-green-400">"C++"</span>, <span className="text-green-400">"Python"</span>,
+          <span className="text-green-400">"JavaScript"</span>, <span className="text-green-400">"TypeScript"</span>],
         </div>
         <div className="ml-4">
-          <span className="text-yellow-300">frontend</span>
-          <span className="text-gray-400">:</span> <span className="text-gray-400">[</span>
-          <span className="text-green-400">"React.js"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"Next.js"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"TailwindCSS"</span>
-          <span className="text-gray-400">]</span>
-          <span className="text-gray-400">,</span>
+          <span className="text-yellow-300">frontend</span><span className="text-gray-400">:</span> [
+          <span className="text-green-400">"React.js"</span>, <span className="text-green-400">"Next.js"</span>, <span className="text-green-400">"TailwindCSS"</span>],
         </div>
         <div className="ml-4">
-          <span className="text-yellow-300">backend</span>
-          <span className="text-gray-400">:</span> <span className="text-gray-400">[</span>
-          <span className="text-green-400">"Node.js"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"Express.js"</span>
-          <span className="text-gray-400">]</span>
-          <span className="text-gray-400">,</span>
+          <span className="text-yellow-300">backend</span><span className="text-gray-400">:</span> [
+          <span className="text-green-400">"Node.js"</span>, <span className="text-green-400">"Express.js"</span>],
         </div>
         <div className="ml-4">
-          <span className="text-yellow-300">mobile</span>
-          <span className="text-gray-400">:</span> <span className="text-gray-400">[</span>
-          <span className="text-green-400">"Flutter"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"Dart"</span>
-          <span className="text-gray-400">]</span>
-          <span className="text-gray-400">,</span>
+          <span className="text-yellow-300">mobile</span><span className="text-gray-400">:</span> [
+          <span className="text-green-400">"Flutter"</span>, <span className="text-green-400">"Dart"</span>],
         </div>
         <div className="ml-4">
-          <span className="text-yellow-300">design</span>
-          <span className="text-gray-400">:</span> <span className="text-gray-400">[</span>
-          <span className="text-green-400">"Adobe Photoshop"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"Canva"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"Figma"</span>
-          <span className="text-gray-400">, </span>
-          <span className="text-green-400">"Adobe Premier Pro"</span>
-          <span className="text-gray-400">]</span>
+          <span className="text-yellow-300">design</span><span className="text-gray-400">:</span> [
+          <span className="text-green-400">"Adobe Photoshop"</span>, <span className="text-green-400">"Canva"</span>,
+          <span className="text-green-400">"Figma"</span>, <span className="text-green-400">"Adobe Premier Pro"</span>]
         </div>
-        <span className="ml-4 text-gray-400">{'}'}</span>
-        <span className="text-gray-400">,</span>
+        <span className="ml-4 text-gray-400">{'}'},</span>
       </div>
+
       <div className="ml-4">
-        <span className="text-yellow-300">interests</span>
-        <span className="text-gray-400">:</span> <span className="text-gray-400">[</span>
-        <span className="text-green-400">"Web Development"</span>
-        <span className="text-gray-400">, </span>
-        <span className="text-green-400">"Artificial Intelligence"</span>
-        <span className="text-gray-400">, </span>
-        <span className="text-green-400">"Poetry"</span>
-        <span className="text-gray-400">, </span>
-        <span className="text-green-400">"Screenplay Writing"</span>
-        <span className="text-gray-400">]</span>
-        <span className="text-gray-400">,</span>
+        <span className="text-yellow-300">interests</span><span className="text-gray-400">:</span> [
+        <span className="text-green-400">"Web Development"</span>, <span className="text-green-400">"Artificial Intelligence"</span>,
+        <span className="text-green-400">"Poetry"</span>, <span className="text-green-400">"Screenplay Writing"</span>],
       </div>
+
       <div className="ml-4">
-        <span className="text-yellow-300">leadership</span>
-        <span className="text-gray-400">:</span> <span className="text-gray-400">{'{'}</span>
+        <span className="text-yellow-300">leadership</span><span className="text-gray-400">:</span> {'{'}
         <div className="ml-4">
-          <span className="text-yellow-300">current</span>
-          <span className="text-gray-400">:</span> <span className="text-green-400">"President - Rotaract Club of PSGCAS"</span>
-          <span className="text-gray-400">,</span>
+          <span className="text-yellow-300">current</span><span className="text-gray-400">:</span>
+          <span className="text-green-400"> "President - Rotaract Club of PSGCAS"</span><span className="text-gray-400">,</span>
         </div>
         <div className="ml-4">
-          <span className="text-yellow-300">achievements</span>
-          <span className="text-gray-400">:</span> <span className="text-green-400">"97 Events organized as President"</span>
+          <span className="text-yellow-300">achievements</span><span className="text-gray-400">:</span>
+          <span className="text-green-400"> "97 Events organized as President"</span>
         </div>
         <span className="ml-4 text-gray-400">{'}'}</span>
       </div>
-      <span className="text-gray-400">{'}'}</span>
-      <span className="text-gray-400">;</span>
+
+      <span className="text-gray-400">{'}'};</span>
+
       <div className="mt-4">
         <span className="text-blue-400">console</span>
         <span className="text-gray-400">.</span>
@@ -154,7 +110,7 @@ const CompilerBox = () => {
           className="bg-violet-600 hover:bg-violet-700 text-white px-4 py-1 rounded flex items-center space-x-2"
         >
           <Play size={16} />
-          <span>Run</span>
+          <span>{showFullInfo ? 'Reset' : 'Run'}</span>
         </button>
       </div>
       <div className="p-4 font-mono text-sm">

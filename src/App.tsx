@@ -391,48 +391,78 @@ function App() {
         </div>
       </section>
 
-      {/* Resume Section */}
       <section id="resume" className="py-16 sm:py-20">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12">Resume</h2>
-          <div className="max-w-3xl mx-auto">
-            <div className="bg-gray-900/50 backdrop-blur-sm p-6 sm:p-8 rounded-lg mb-6 sm:mb-8">
-              <h3 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">Skills & Expertise</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-                <div>
-                  <h4 className="text-violet-400 mb-1 sm:mb-2 text-sm sm:text-base">Programming Languages</h4>
-                  <p className="text-sm sm:text-base">C, C++, Python, JavaScript, TypeScript</p>
-                </div>
-                <div>
-                  <h4 className="text-violet-400 mb-1 sm:mb-2 text-sm sm:text-base">Web Technologies</h4>
-                  <p className="text-sm sm:text-base">React.js, Next.js, Node.js, Express.js</p>
-                </div>
-                <div>
-                  <h4 className="text-violet-400 mb-1 sm:mb-2 text-sm sm:text-base">Mobile Development</h4>
-                  <p className="text-sm sm:text-base">Flutter, Dart</p>
-                </div>
-                <div>
-                  <h4 className="text-violet-400 mb-1 sm:mb-2 text-sm sm:text-base">Design Tools</h4>
-                  <p className="text-sm sm:text-base">Adobe Photoshop, Figma, Adobe Premier Pro</p>
-                </div>
-              </div>
-            </div>
-            <div className="flex justify-center">
-              <a 
-                href="/Sanjay-Resume.pdf" 
-                download
-                className="bg-violet-600 hover:bg-violet-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg transition flex items-center space-x-2 text-sm sm:text-base"
-              >
-                {/* Changed to center the rocket icon using mx-auto */}
-                <div className="flex items-center justify-center">
-                  <Rocket className="animate-bounce mx-auto" size={18} />
-                </div>
-                <span>Download Resume</span>
-              </a>
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12">Resume</h2>
+    <div className="max-w-3xl mx-auto">
+      <div className="bg-gray-900/50 backdrop-blur-sm p-6 sm:p-8 rounded-lg mb-6 sm:mb-8">
+        <h3 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">Skills & Expertise</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+          
+          <div>
+            <h4 className="text-violet-400 mb-2 text-sm sm:text-base">Programming Languages</h4>
+            <div className="flex flex-wrap gap-2">
+              {['C', 'C++', 'Python', 'JavaScript', 'TypeScript'].map(skill => (
+                <span key={skill} className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs sm:text-sm font-medium">
+                  {skill}
+                </span>
+              ))}
             </div>
           </div>
+
+          <div>
+            <h4 className="text-violet-400 mb-2 text-sm sm:text-base">Web Technologies</h4>
+            <div className="flex flex-wrap gap-2">
+              {['React.js', 'Next.js', 'Node.js', 'Express.js'].map(skill => (
+                <span key={skill} className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs sm:text-sm font-medium">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-violet-400 mb-2 text-sm sm:text-base">Mobile Development</h4>
+            <div className="flex flex-wrap gap-2">
+              {['Flutter', 'Dart'].map(skill => (
+                <span key={skill} className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs sm:text-sm font-medium">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-violet-400 mb-2 text-sm sm:text-base">Design Tools</h4>
+            <div className="flex flex-wrap gap-2">
+              {['Adobe Photoshop', 'Figma', 'Adobe Premier Pro'].map(skill => (
+                <span key={skill} className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs sm:text-sm font-medium">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+
         </div>
-      </section>
+      </div>
+
+      <div className="flex justify-center">
+      <a 
+  href="/Sanjay-Resume.pdf" 
+  download
+  className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg transition flex items-center space-x-2 text-sm sm:text-base"
+>
+  <div className="flex items-center justify-center">
+    <Rocket className="animate-bounce mx-auto" size={18} />
+  </div>
+  <span>Download Resume</span>
+</a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Contact Section */}
       <section id="contact" className="py-16 sm:py-20">
